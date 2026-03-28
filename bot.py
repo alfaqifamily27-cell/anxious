@@ -13,8 +13,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── config ──────────────────────────────────────────────────────────────────
-BOT_TOKEN   = os.environ[8711119979:AAEucF8kS3yGRja90pn0KrHGftpJuaLv1ao]
-CHANNEL_ID  = os.environ[1003710390649]          # e.g. -1001234567890
+BOT_TOKEN   = os.environ["BOT_TOKEN"]
+CHANNEL_ID  = os.environ["CHANNEL_ID"]          # e.g. -1001234567890
 INDEX_FILE  = "index.json"
 
 # ── helpers ──────────────────────────────────────────────────────────────────
